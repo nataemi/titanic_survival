@@ -7,12 +7,6 @@ sexMap = {
     'F' : 0
 }
 
-ageMap = {
-    'M' : 1,
-    'F' : 0
-}
-
-
 class Predict:
     def __init__(self):
         with open('model/model.json', 'r') as infile:

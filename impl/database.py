@@ -31,9 +31,5 @@ class DataBaseConnector:
         print(cursor.rowcount, "record inserted.")
         cursor.close()
 
-#test
-# dataBaseConector = DataBaseConnector()
-# dataBaseConector.insert_data(UserInput(1,22,'M',1,1,0))
-# dataBaseConector.select_all_data()
 
 

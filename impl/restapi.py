@@ -3,12 +3,10 @@ from flask_restful import Resource, Api, reqparse
 import json
 from pandas import DataFrame
 from flask_cors import CORS
-from tensorflow.python.keras.models import model_from_json
 
 from impl.database import DataBaseConnector
 from impl.predict import Predict
 from impl.userinput import UserInput
-import numpy as np
 
 
 class DatetimeEncoder(json.JSONEncoder):
